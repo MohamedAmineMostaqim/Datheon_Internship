@@ -1,0 +1,23 @@
+=== DATA VALIDATION REPORT ===
+Date: 2026-11-25 18:00:01
+Rows read: 1000
+Null values per column (before cleaning):
+title           0
+price           0
+rating          0
+availability    0
+url             0
+page            0
+scraped_at      0
+Rows removed (missing values): 0
+Duplicates removed: 0
+Final rows: 1000
+Validation: PASSED
+Column types:
+title                    str
+price_gbp            float64
+rating                 int64
+in_stock                bool
+url                      str
+page                   int64
+scraped_at    datetime64[us]
